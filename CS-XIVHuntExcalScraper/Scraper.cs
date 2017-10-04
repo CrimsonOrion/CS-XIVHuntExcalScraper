@@ -143,6 +143,7 @@ namespace CS_XIVHuntExcalScraper
 
     public class World
     {
+#pragma warning disable IDE1006 // Naming Styles
         public int id { get; set; }
         public List<Hunt> hunts { get; set; }
     }
@@ -159,6 +160,7 @@ namespace CS_XIVHuntExcalScraper
         public float x { get; set; }
         public float y { get; set; }
         public bool lastAlive { get; set; }
+#pragma warning restore IDE1006 // Naming Styles
         public enum HuntRank
         {
             B,
