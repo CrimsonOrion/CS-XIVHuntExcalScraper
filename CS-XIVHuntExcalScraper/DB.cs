@@ -8,7 +8,7 @@ namespace CS_XIVHuntExcalScraper
 {
     class DB
     {
-        private static readonly string CONNECTION_STRING = Stuff.ConnectionStringTest;
+        private static readonly string CONNECTION_STRING = Stuff.ConnectionString;
 
         public static string updateQuery = string.Empty;
 
